@@ -1,0 +1,31 @@
+.container {
+    max-width: 1920px;
+}
+
+.container-shelf {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+}
+
+.title-shelf {
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 27.24px;
+  text-align: left;
+  border-bottom: 4.3px solid #C0C0C0;
+  width: fit-content;
+}
+
+@media (max-width: 670px) {
+    .container-shelf {
+      padding: 0px 10px;
+  }
+}
+
+@media (min-width: 670px) {
+    .container-shelf {
+      padding: 0px 10em;
+  }
+}

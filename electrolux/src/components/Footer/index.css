@@ -1,0 +1,83 @@
+@media (max-width: 670px) {
+    .container-footer {
+        display: flex;
+        flex-direction: column;
+        padding: 0 10px 20px;
+    }
+
+    .selo-diamond {
+        width: 76px;
+        margin: 0 10px;
+    }
+    
+    .selo-encrypt {
+        width: 59px;
+        margin: 0 10px;
+    }
+    
+    .selo-reclameaqui {
+        width: 130px;
+        margin: 0 10px;
+    }
+}
+  
+@media (min-width: 670px) {
+    .container-footer {
+        padding: 0 10em 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .selo-diamond {
+        width: 85px;
+        margin: 0 10px;
+    }
+    
+    .selo-encrypt {
+        width: 62px;
+        margin: 0 10px;
+    }
+    
+    .selo-reclameaqui {
+        width: 145px;
+        margin: 0 10px;
+    }
+}
+
+.container-footer {
+    background-color: #011e41;
+    /* height: 233px; */
+    color: #fff;
+}
+
+.title-menu-footer {
+    border-bottom: 5px solid #FFFFFF;
+    text-align: start;
+    width: fit-content;
+}
+
+ul.content-item-footer {
+    padding-left: 0;
+}
+
+.item-menu-footer {
+    list-style-type: none;
+    text-align: start;
+}
+
+.bloco-selo-footer {
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    width: min-content;
+    padding: 10px;
+}
+
+.image-product-footer {
+    margin: 0 10px;
+}
+

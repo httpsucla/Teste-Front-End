@@ -1,0 +1,29 @@
+.container {
+    max-width: 1920px;
+}
+
+.container-header {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-electrolux {
+    width: 150px;
+}
+
+@media (max-width: 670px) {
+    .container-header {
+        padding: 0px 10px 45px;
+
+    }
+}
+
+@media (min-width: 670px) {
+    .container-header {
+        padding: 0px 10em 15px;
+
+    }
+}
