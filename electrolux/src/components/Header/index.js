@@ -16,7 +16,9 @@ export default function Header() {
                     <Search />
                 </div>
                 <div className="container-cart">
-                    <MiniCart />
+                    <div className="content-minicart">
+                        <MiniCart />
+                    </div>              
                 </div>
             </div>
         </section>
