@@ -18,6 +18,12 @@
   .image-product {
     width: 100px;
   }
+
+  .minicart {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+  }
 }
 
 @media (min-width: 670px) {
@@ -35,6 +41,12 @@
 
   .image-product {
     width: 200px;
+  }
+
+  .minicart {
+    position: absolute;
+    top: 20px;
+    right: 160px;
   }
 }
 
@@ -78,4 +90,8 @@ li.product:hover .content-product {
   line-height: 24.51px;
   text-align: center;
   color: #000;
+}
+
+.minicart {
+  background-color: white;
 }

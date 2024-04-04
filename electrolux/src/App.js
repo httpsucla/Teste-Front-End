@@ -4,12 +4,10 @@ import './App.css';
 import Header from './components/Header';
 import Shelf from './components/Shelf';
 import Footer from './components/Footer';
-import { CartProvider } from './components/Header/Cart/cartContext'; 
 
 function App() {
   return (
     <div className="App">
-      <CartProvider> {/* Envolver toda a aplicação com o CartProvider */}
         <Header />
         <div className='container-banner'>
           <img src={bannerDesktop} className="banner-desktop" alt="Banner" />
@@ -17,7 +15,6 @@ function App() {
         </div>
         <Shelf />
         <Footer />
-      </CartProvider>
     </div>
   );
 }

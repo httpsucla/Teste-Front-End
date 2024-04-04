@@ -64,8 +64,11 @@ export default function Product() {
                   </li>
                 ))}
               </ul>
-              {/* Passando o estado do carrinho como prop para o componente MiniCart */}
-              <MiniCart cartItems={cartItems} />
+              {/* Teste de funcionamento de cart */}
+              <div className="minicart">
+                <MiniCart cartItems={cartItems} />
+              </div>
+              
             </>
           ) : (
             <h2>Nenhum produto encontrado</h2>

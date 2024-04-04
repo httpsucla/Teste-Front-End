@@ -18,13 +18,16 @@ const MiniCart = ({ cartItems }) => {
       {isOpen && (
         <div className="cart-dropdown">
           {cartItems.length === 0 ? (
-            <p>Seu carrinho está vazio</p>
+            <p className="text-minicart">Seu carrinho está vazio</p>
           ) : (
-            <ul>
+            <ul className="list-minicart">
               {cartItems.map((item, index) => (
-                <li key={index}>
-                  <img src={item.image} alt={item.title} />
-                  <span>{item.title} - R$ {item.price}</span>
+                <li key={index} className="item-minicart">
+                  <img src={item.image} alt={item.title} className="item-image-minicart"/>
+                  <div className="content-item-minicart">
+                    <span className="item-name-minicart">{item.title} </span>
+                    <span className="item-price-minicart">R$ {item.price}</span>
+                  </div>     
                 </li>
               ))}
             </ul>

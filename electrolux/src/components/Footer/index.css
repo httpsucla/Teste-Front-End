@@ -24,9 +24,8 @@
 @media (min-width: 670px) {
     .container-footer {
         padding: 0 10em 20px;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 20px;
+        display: flex;
+        justify-content: space-between;
         align-items: center;
     }
 
@@ -44,6 +43,10 @@
         width: 145px;
         margin: 0 10px;
     }
+}
+
+.footer {
+    background-color: #011e41;
 }
 
 .container-footer {
@@ -75,6 +78,7 @@ ul.content-item-footer {
     flex-direction: row;
     width: min-content;
     padding: 10px;
+    align-items: center;
 }
 
 .image-product-footer {
